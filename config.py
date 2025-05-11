@@ -10,11 +10,8 @@ load_dotenv()
 
 
 DEVS = [
-    607067484, # Ayiin
-    844432220, # Risman
-    883761960, # Ari
-    2130526178, # Alfa
-    1663258664, # Kyy
+    5662169739, # Jonathan
+    1927018403, # Jonathan
 ]
 
 
@@ -57,12 +54,12 @@ GCAST_BLACKLIST = [
 
 class Config:
     # Telegram App KEY and HASH
-    API_KEY = int(getenv("API_KEY") or 0)
-    API_HASH = str(getenv("API_HASH") or None)
+    API_KEY = int(getenv("27418440") or 0)
+    API_HASH = str(getenv("0a08a360e0e9f41b9896f655c300d09d") or None)
 
     # Inline bot helper
-    BOT_TOKEN = getenv("BOT_TOKEN", None)
-    BOT_USERNAME = getenv("BOT_USERNAME", None)
+    BOT_TOKEN = getenv("8150687003:AAECSo7sKIfUzmDM1wHWF5gxqVvkdSOODL0", None)
+    BOT_USERNAME = getenv("@LenatheaUserBot", None)
 
     OPENAI_API_KEY = getenv("OPENAI_API_KEY", None)
 
@@ -79,7 +76,7 @@ class Config:
         BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001718852988]
 
     # Userbot Session String
-    STRING_SESSION = getenv("STRING_SESSION", None)
+    STRING_SESSION = getenv("1BVtsOGQBu3qHNw-t7WPKbfJunDgDq0lFRN5Rkb7f8Peh4LhSwpYOrJLOTAINDQK_XIMKX4Np85NRUW81cV2JN0FcqF8jwclSTc1yl-2XbKGuo1Y20bkyR7Wddp022ZPLCExs4bL57QpITWP3IZP8gvKLg_wtM0BswBOohUVJppUV-p-a2oldgCIysKWBV06Fiq3xrXdFrH1yt72afvgajlrdoewkAw0uqvdkmXoP9briXeGDz2-jXt7qWve2aLPh-ANkPy_t5pnzrirU_QNbjm4RtV06n2sx8jQJB4r8eHCtfemB1DceNpEyK9cmmoZiHuPixpD3XONh-c-xlRuIyeXxaXNtQo8=", None)
 
     # Logging channel/group ID configuration.
     BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "0"))
@@ -97,8 +94,8 @@ class Config:
     SUDO_HANDLER = getenv("SUDO_HANDLER", r"$")
 
     # Support
-    GROUP = getenv("GROUP", "AyiinChats")
-    CHANNEL = getenv("CHANNEL", "AyiinChannel")
+    GROUP = getenv("GROUP", "azellosupport")
+    CHANNEL = getenv("CHANNEL", "jonathanwutwut")
 
     # Heroku Credentials for updater.
     HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -108,11 +105,11 @@ class Config:
     WATCH_COUNTRY = getenv("WATCH_COUNTRY", "ID")
 
     # Github Credentials for updater and Gitupload.
-    GIT_REPO_NAME = getenv("GIT_REPO_NAME", None)
-    GITHUB_ACCESS_TOKEN = getenv("GITHUB_ACCESS_TOKEN", None)
+    GIT_REPO_NAME = getenv("https://github.com/Exploit-Tim", None)
+    GITHUB_ACCESS_TOKEN = getenv("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", None)
 
     # Custom (forked) repo URL for updater.
-    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/Exploit-Tim/Kinaya")
 
     # Custom Name Sticker Pack
     S_PACK_NAME = getenv("S_PACK_NAME", None)
@@ -143,10 +140,10 @@ class Config:
     # untuk perintah teks costum .alive
     ALIVE_TEKS_CUSTOM = getenv(
         "ALIVE_TEKS_CUSTOM",
-        "Hey, Saya pengguna Ayiin-Userbot")
+        "Hey, Saya pengguna Jonathan-Userbot")
 
     # Default .alive name
-    ALIVE_NAME = getenv("ALIVE_NAME", "AyiinXd")
+    ALIVE_NAME = getenv("ALIVE_NAME", "Jonathan")
 
     # Custom Emoji Alive
     ALIVE_EMOJI = getenv("ALIVE_EMOJI", "✧")
