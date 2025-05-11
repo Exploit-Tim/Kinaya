@@ -79,7 +79,7 @@ class Config:
     STRING_SESSION = getenv("1BVtsOGQBu3qHNw-t7WPKbfJunDgDq0lFRN5Rkb7f8Peh4LhSwpYOrJLOTAINDQK_XIMKX4Np85NRUW81cV2JN0FcqF8jwclSTc1yl-2XbKGuo1Y20bkyR7Wddp022ZPLCExs4bL57QpITWP3IZP8gvKLg_wtM0BswBOohUVJppUV-p-a2oldgCIysKWBV06Fiq3xrXdFrH1yt72afvgajlrdoewkAw0uqvdkmXoP9briXeGDz2-jXt7qWve2aLPh-ANkPy_t5pnzrirU_QNbjm4RtV06n2sx8jQJB4r8eHCtfemB1DceNpEyK9cmmoZiHuPixpD3XONh-c-xlRuIyeXxaXNtQo8=", None)
 
     # Logging channel/group ID configuration.
-    BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "0"))
+    BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "-1002532595109"))
 
     # Load or No Load modules
     LOAD = getenv("LOAD", "").split()
